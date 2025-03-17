@@ -19,4 +19,4 @@ jobs:
     - name: Deploy
       run: |
         echo "Implantando aplicação..."
-        # Aqui você colocaria seus comandos de deploy reais
+
