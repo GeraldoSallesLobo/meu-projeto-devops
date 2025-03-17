@@ -1,0 +1,22 @@
+{
+  "name": "meu-projeto-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "start": "node app.js",
+    "build": "echo \"No build step required\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeraldoSallesLobo/meu-projeto-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeraldoSallesLobo/meu-projeto-devops/issues"
+  },
+  "homepage": "https://github.com/GeraldoSallesLobo/meu-projeto-devops#readme"
+}
