@@ -21,4 +21,3 @@ jobs:
     - name: Code quality check
       run: |
         echo "Verificando qualidade do código..."
-        # Aqui você colocaria seus comandos de verificação de qualidade
