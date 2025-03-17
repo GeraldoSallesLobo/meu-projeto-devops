@@ -1,0 +1,22 @@
+
+name: CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup environment
+      run: |
+        echo "Configurando ambiente..."
+        
+    - name: Deploy
+      run: |
+        echo "Implantando aplicação..."
+        # Aqui você colocaria seus comandos de deploy reais

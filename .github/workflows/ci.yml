@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Run tests
+      run: |
+        echo "Executando testes..."
+        # Aqui você colocaria seus comandos de teste reais
+        
+    - name: Code quality check
+      run: |
+        echo "Verificando qualidade do código..."
+        # Aqui você colocaria seus comandos de verificação de qualidade
