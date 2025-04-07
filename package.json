@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests specified\" && exit 0",
+    "test": "jest",
     "start": "node app.js",
     "build": "echo \"No build step required\" && exit 0"
   },
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/GeraldoSallesLobo/meu-projeto-devops/issues"
   },
-  "homepage": "https://github.com/GeraldoSallesLobo/meu-projeto-devops#readme"
+  "homepage": "https://github.com/GeraldoSallesLobo/meu-projeto-devops#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
 }
